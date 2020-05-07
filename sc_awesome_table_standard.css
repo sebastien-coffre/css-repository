@@ -1,0 +1,55 @@
+/*** Awesome Table ***/
+
+/* filtered results information : last - first / total number of result */
+.count {
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+/* loader progress bar */
+.loader {
+	background-color: #437af8;
+}
+
+/*** Google visualization override ***/
+
+/* page number display */
+.google-visualization-table-page-numbers {
+	display: none !important;
+}
+
+/* Table view header */
+.google-visualization-table-table .gradient,
+.google-visualization-table-div-page .gradient {
+	background: #f0f0f0 !important;
+	color: #4b4a4d;
+	font-size: 14px;
+}
+
+.google-visualization-table-tr-odd {
+	background-color: #f7f7f7 !important;
+}
+
+/* selected/hovered row in a TABLE view */
+.google-visualization-table-tr-sel td,
+.google-visualization-table-tr-over td {
+	background-color: #D9EAFF !important;
+}
+
+/*** Configuration of FILTERS ***/
+
+/** Labels of filters **/
+.google-visualization-controls-label {
+	/* color:#333; */
+}
+
+/** CategoryFilter & csvFilter hovered item in the drop-down **/
+.charts-menuitem-highlight {
+	background-color: #f0f0f0 !important;
+	border-color: #f0f0f0 !important;
+	color: #4b4a4d !important;
+}
+
+.charts-menuitem-highlight > .charts-menuitem-content {
+	color: #4b4a4d;
+}
